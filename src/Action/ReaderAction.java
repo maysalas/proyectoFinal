@@ -43,7 +43,7 @@ public class ReaderAction extends HttpServlet {
         String readerid = request.getParameter("readerid");
         ReaderDao readerDao = new ReaderDao();
         Reader reader = readerDao.QueryReaderById(readerid);
-        String status = (reader.getStatus() == 1) ? "Normal" : "Anormal";
+        String status = (reader.getStatus() == 1) ? "Normal" : "ListaNegra";
         String callback = reader.getName() + "||" + reader.getGrade() + "Grado" + reader.getClassnum() + "Clase||" + status + "||" + reader.getBorrow();
         PrintWriter out = response.getWriter();
         out.write(callback);

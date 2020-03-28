@@ -50,7 +50,7 @@ public class IODao extends DBConnect{
                 log.setService(service);
                 log.setBorrowtime(rs.getString("borrowtime"));
                 log.setBorrowday(rs.getInt("borrowday"));
-                complete = (rs.getInt("complete") == 0) ? "未归还" : "已归还";
+                complete = (rs.getInt("complete") == 0) ? "No devuelto" : "Devuelto";
                 log.setComplete(complete);
                 Loglist.add(log);
             }
@@ -103,9 +103,9 @@ public class IODao extends DBConnect{
                 log.setReaderid(rs.getString("readerid"));
                 log.setBookid(rs.getString("bookid"));
                 log.setBorrowtime(rs.getString("borrowtime"));
-                service = (rs.getInt("service") == -1) ? "借出" : "归还";
+                service = (rs.getInt("service") == -1) ? "Prestamo" : "Devolver";
                 log.setService(service);
-                complete = (rs.getInt("complete") == 0) ? "未归还" : "已归还";
+                complete = (rs.getInt("complete") == 0) ? "No devuelto" : "Devuelto";
                 log.setComplete(complete);
                 log.setBorrowday(rs.getInt("borrowday"));
                 loglist.add(log);

@@ -33,7 +33,7 @@ public class IOAction extends HttpServlet {
 
     protected void borrow(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
         IODao ioDao = new IODao();
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy año MM Mes dd Dia HH hora mm minuto ss segundo");
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd - HH:mm:ss ");
         Date date = new Date();
         String time = sdf.format(date);
         String readerid = request.getParameter("readerid");
@@ -53,7 +53,7 @@ public class IOAction extends HttpServlet {
 
     protected void ReturnBook(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
         IODao ioDao = new IODao();
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy年MM月dd日 HH时mm分ss秒");
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd - HH:mm:ss ");
         Date date = new Date();
         String Returntime = sdf.format(date);
         String bookid = request.getParameter("bookid");

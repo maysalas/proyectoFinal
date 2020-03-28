@@ -33,7 +33,7 @@
         <th>Prestamo/Devolucion</th>
         <th>Hora de prestamo/Devolucion</th>
         <th>Tiempo de prestamo (dias)</th>
-        <th>Devolver</th>
+        <th>Devuelto</th>
         <th>Accion</th>
     </tr>
     </tr>
@@ -54,7 +54,7 @@
         <td><%=log.getBorrowtime()%></td>
         <td><%=log.getBorrowday()%></td>
         <td><%=log.getComplete()%></td>
-        <td><a href="IOAction?action=return&bookid=<%=log.getBookid()%>&ReaderId=<%=log.getReaderid()%>&borrowtime=<%=log.getBorrowtime()%>">归还</a> </td>
+        <td><a href="IOAction?action=return&bookid=<%=log.getBookid()%>&ReaderId=<%=log.getReaderid()%>&borrowtime=<%=log.getBorrowtime()%>">Devolver</a> </td>
     </tr>
         <%
             }
