@@ -1,8 +1,8 @@
 <%@ page import="java.util.ArrayList" %>
 <%@ page import="Entity.Log" %><%--
   Created by IntelliJ IDEA.
-  User: Creams
-  Date: 2018/1/16
+  User: Kike
+  Date: 2020/03/26
   Time: 23:00
   To change this template use File | Settings | File Templates.
 --%>
@@ -13,7 +13,7 @@
 <script src="${pageContext.request.contextPath}/js/bootstrap.min.js"></script>
 <html>
 <head>
-    <title>图书借进归还日志</title>
+    <title>Devolucion de libros</title>
 </head>
 <body>
 <%
@@ -22,17 +22,17 @@
         response.sendRedirect("/Library/index.jsp");
     }
 %>
-<h1 align="center">欢迎进入图书馆管理系统</h1>
+<h1 align="center">Gestion de Biblioteca</h1>
 <jsp:include page="nav.html"/>
 <table class="table">
     <thead>
     <tr>
-        <th>书本编号(书名)</th>
-        <th>读者学号</th>
-        <th>借出/归还</th>
-        <th>更新时间</th>
-        <th>借阅时间(天)</th>
-        <th>是否归还</th>
+        <th>ID de libro(Titulo)</th>
+        <th>Id miembro</th>
+        <th>Prestamo/Devolucion</th>
+        <th>Tiempo</th>
+        <th>Restante(dias)</th>
+        <th>Devolver</th>
     </tr>
     </thead>
     <tbody>

@@ -1,7 +1,7 @@
 <%--
   Created by IntelliJ IDEA.
-  User: Creams
-  Date: 2018/1/15
+  User: Kike
+  Date: 2020/03/25
   Time: 16:01
   To change this template use File | Settings | File Templates.
 --%>
@@ -16,7 +16,7 @@
 <script src="${pageContext.request.contextPath}/js/bootstrap.min.js"></script>
 <html>
 <head>
-    <title>书本借出记录登记表</title>
+    <title>Prestamo de Libro</title>
 </head>
 <%
     request.setCharacterEncoding("utf-8");
@@ -25,53 +25,53 @@
     }
 %>
 <body>
-<h1 align="center">欢迎进入图书馆管理系统</h1>
+<h1 align="center">Gestion de Biblioteca</h1>
 <jsp:include page="nav.html"/>
 <div class="borrowinfo">
     <div class="title">
-        书本借出记录登记表
+        Prestamo de Libro
     </div>
     <form action="IOAction?action=borrow" onsubmit="return errorsubmit()" method="post">
         <div>
-            <span class="infotitle">读者学号：</span><input type="text" onkeyup="readercheck()" name="readerid" id="readerid"><span id="readeridcheck" class="error"></span>
+            <span class="infotitle">ID Miembro：</span><input type="text" onkeyup="readercheck()" name="readerid" id="readerid"><span id="readeridcheck" class="error"></span>
         </div>
         <div>
-            <span class="infotitle">读者姓名：</span><input type="text" name="readername" id="readername" disabled>
+            <span class="infotitle">Nombre：</span><input type="text" name="readername" id="readername" disabled>
         </div> 
         <div>
-            <span class="infotitle">读者班级：</span><input type="text" name="readername" id="readerclass" disabled>
+            <span class="infotitle">Clase y Grupo：</span><input type="text" name="readername" id="readerclass" disabled>
         </div>
         <div>
-            <span class="infotitle">用户状态：</span><input type="text" name="readername" id="readerstatus" disabled><span id="readerstatuscheck" class="error"></span>
+            <span class="infotitle">Status：</span><input type="text" name="readername" id="readerstatus" disabled><span id="readerstatuscheck" class="error"></span>
         </div>
         <div>
-            <span class="infotitle">用户已借：</span><input type="text" name="readerborrow" id="readerborrow" disabled><span id="readerborrowcheck" class="error"></span>
+            <span class="infotitle">Libros en posesion：</span><input type="text" name="readerborrow" id="readerborrow" disabled><span id="readerborrowcheck" class="error"></span>
         </div>
         <div>
-            <span class="infotitle">书本编号：</span><input type="text" name="bookid" onkeyup="bookcheck()" id="bookid"><span id="bookidcheck" class="error"></span>
+            <span class="infotitle">ID Libro：</span><input type="text" name="bookid" onkeyup="bookcheck()" id="bookid"><span id="bookidcheck" class="error"></span>
         </div>
         <div>
-            <span class="infotitle">书本名称：</span><input type="text" name="bookname" id="bookname"disabled>
+            <span class="infotitle">Titulo：</span><input type="text" name="bookname" id="bookname"disabled>
         </div>
         <div>
-            <span class="infotitle">书本作者：</span><input type="text" name="bookauthor" id="bookauthor" disabled>
+            <span class="infotitle">Autor：</span><input type="text" name="bookauthor" id="bookauthor" disabled>
         </div>
         <div>
-            <span class="infotitle">出版单位：</span><input type="text" name="bookpublisher" id="bookpublisher" disabled>
+            <span class="infotitle">Editorial：</span><input type="text" name="bookpublisher" id="bookpublisher" disabled>
         </div>
         <div>
-            <span class="infotitle">书本剩余：</span><input type="text" name="bookremain" id="bookremain" disabled><span id="booknumcheck" class="error"></span>
+            <span class="infotitle">Disponible：</span><input type="text" name="bookremain" id="bookremain" disabled><span id="booknumcheck" class="error"></span>
         </div>
         <div>
-            <span class="infotitle">借阅时间：</span>
+            <span class="infotitle">Tiempo de prestamo：</span>
             <select name="borrowday">
-                <option value="7">7天</option>
-                <option value="14">14天</option>
+                <option value="7">7 dias</option>
+                <option value="14">14 dias</option>
             </select>
         </div>
         <div class="button">
-            <button type="submit" class="btn btn-success">提交</button>
-            <button type="reset" class="btn btn-default">重填</button>
+            <button type="submit" class="btn btn-success">Prestar</button>
+            <button type="reset" class="btn btn-default">borrar formulario</button>
         </div>
     </form>
 </div>

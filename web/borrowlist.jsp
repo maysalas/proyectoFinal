@@ -13,7 +13,7 @@
 <script src="${pageContext.request.contextPath}/js/bootstrap.min.js"></script>
 <html>
 <head>
-    <title>待还图书列表</title>
+    <title>Lista de libros prestados</title>
 </head>
 <%
     request.setCharacterEncoding("utf-8");
@@ -22,19 +22,19 @@
     }
 %>
 <body>
-<h1 align="center">欢迎进入图书馆管理系统</h1>
+<h1 align="center">Gestion de Biblioteca</h1>
 <jsp:include page="nav.html"/>
 <table class="table">
     <thead>
     <tr>
     <tr>
-        <th>书本编号(书名)</th>
-        <th>读者学号</th>
-        <th>借出/归还</th>
-        <th>借出/归还 时间</th>
-        <th>借阅时间(天)</th>
-        <th>是否归还</th>
-        <th>操作</th>
+        <th>ID de libro</th>
+        <th>ID de miembro</th>
+        <th>Prestamo/Devolucion</th>
+        <th>Hora de prestamo/Devolucion</th>
+        <th>Tiempo de prestamo (dias)</th>
+        <th>Devolver</th>
+        <th>Accion</th>
     </tr>
     </tr>
     </thead>
