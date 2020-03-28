@@ -1,4 +1,4 @@
-package app.model;
+package app.modelo;
 
 public class TUser {
     public static String nombre;

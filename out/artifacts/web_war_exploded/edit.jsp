@@ -5,7 +5,7 @@
   Time: 11:50 p. m.
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page import="Entit.Book" %>
+<%@ page import="app.modelo.Book" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">

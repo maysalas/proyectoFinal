@@ -1,7 +1,7 @@
-package Action;
+package app.controller;
 
-import Dao.BookDao;
-import Entit.Book;
+import app.datasim.Dao.BookDao;
+import app.modelo.Book;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

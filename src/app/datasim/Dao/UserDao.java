@@ -1,8 +1,8 @@
-package Dao;
+package app.datasim.Dao;
 
 
-import Entit.User;
-import Util.DBConnect;
+import app.modelo.User;
+import app.datasim.DBConnect;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

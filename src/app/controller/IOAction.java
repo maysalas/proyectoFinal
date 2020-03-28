@@ -1,7 +1,7 @@
-package Action;
+package app.controller;
 
-import Dao.IODao;
-import Entit.Log;
+import app.datasim.Dao.IODao;
+import app.modelo.Log;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

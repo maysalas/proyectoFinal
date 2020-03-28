@@ -1,14 +1,14 @@
-package app.model;
+package app.modelo;
 
-public class Book {
+public class TBook {
     String titulo, fecha, autor;
     int checkedOut;
 
-    public Book() {
+    public TBook() {
 
     }
 
-    public Book(String titulo, String fecha, String autor, int checkedOut) {
+    public TBook(String titulo, String fecha, String autor, int checkedOut) {
         this.titulo = titulo;
         this.fecha = fecha;
         this.autor = autor;

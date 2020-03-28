@@ -7,19 +7,19 @@
 
     <servlet>
         <servlet-name>LoginAction</servlet-name>
-        <servlet-class>Action.LoginAction</servlet-class>
+        <servlet-class>app.controller.LoginAction</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>BookAction</servlet-name>
-        <servlet-class>Action.BookAction</servlet-class>
+        <servlet-class>app.controller.BookAction</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>IOAction</servlet-name>
-        <servlet-class>Action.IOAction</servlet-class>
+        <servlet-class>app.controller.IOAction</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ReaderAction</servlet-name>
-        <servlet-class>Action.ReaderAction</servlet-class>
+        <servlet-class>app.controller.ReaderAction</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ReaderAction</servlet-name>

@@ -1,7 +1,7 @@
 package app.datasim;
 
 
-import app.model.TUser;
+import app.modelo.TUser;
 
 public class DAO {
     TUser usuario = new TUser();

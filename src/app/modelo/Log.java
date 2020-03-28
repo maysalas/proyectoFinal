@@ -1,4 +1,4 @@
-package Entit;
+package app.modelo;
 
 public class Log {
     private String readerid;

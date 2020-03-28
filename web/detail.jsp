@@ -1,4 +1,4 @@
-<%@ page import="Entit.Book" %><%--
+<%@ page import="app.modelo.Book" %><%--
   Created by IntelliJ IDEA.
   User: Kike
   Date: 2020/03/27

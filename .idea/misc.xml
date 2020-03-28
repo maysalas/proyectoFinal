@@ -17,7 +17,7 @@
     <option name="myUseUcmModel" value="true" />
   </component>
   <component name="ExcludeFromValidation">
-    <file url="file://$PROJECT_DIR$/src/Dao/UserDao.java" />
+    <file url="file://$PROJECT_DIR$/src/app/datasim/Dao/UserDao.java" />
   </component>
   <component name="JavadocGenerationManager">
     <option name="OTHER_OPTIONS" value="" />

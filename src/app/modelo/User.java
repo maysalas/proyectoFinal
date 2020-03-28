@@ -1,4 +1,4 @@
-package Entit;
+package app.modelo;
 
 public class User {
     private String username;

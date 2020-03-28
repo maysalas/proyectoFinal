@@ -1,9 +1,9 @@
-package Action;
+package app.controller;
 
-import Dao.IODao;
-import Dao.ReaderDao;
-import Entit.Log;
-import Entit.Reader;
+import app.datasim.Dao.IODao;
+import app.datasim.Dao.ReaderDao;
+import app.modelo.Log;
+import app.modelo.Reader;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

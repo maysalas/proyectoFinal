@@ -1,7 +1,7 @@
-package Action;
+package app.controller;
 
-import Dao.UserDao;
-import Entit.User;
+import app.datasim.Dao.UserDao;
+import app.modelo.User;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

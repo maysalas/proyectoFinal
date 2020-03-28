@@ -1,7 +1,7 @@
 package app.controller;
 
 import app.datasim.DAO;
-import app.model.TUser;
+import app.modelo.TUser;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

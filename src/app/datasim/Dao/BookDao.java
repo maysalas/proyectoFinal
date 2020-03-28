@@ -1,7 +1,7 @@
-package Dao;
+package app.datasim.Dao;
 
-import Entit.Book;
-import Util.DBConnect;
+import app.modelo.Book;
+import app.datasim.DBConnect;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

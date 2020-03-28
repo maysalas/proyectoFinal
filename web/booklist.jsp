@@ -1,6 +1,6 @@
-<%@ page import="Dao.BookDao" %>
+<%@ page import="app.datasim.Dao.BookDao" %>
 <%@ page import="java.util.ArrayList" %>
-<%@ page import="Entit.Book" %>
+<%@ page import="app.modelo.Book" %>
 <%--
   Created by IntelliJ IDEA.
   User: Kike

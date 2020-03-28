@@ -1,5 +1,5 @@
 <%@ page import="java.util.ArrayList" %>
-<%@ page import="Entit.Reader" %>
+<%@ page import="app.modelo.Reader" %>
 <%--
   Created by IntelliJ IDEA.
   User: Kike

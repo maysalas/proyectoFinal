@@ -1,7 +1,7 @@
-package Dao;
+package app.datasim.Dao;
 
-import Entit.Log;
-import Util.DBConnect;
+import app.modelo.Log;
+import app.datasim.DBConnect;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
