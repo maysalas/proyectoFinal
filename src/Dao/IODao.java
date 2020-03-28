@@ -1,6 +1,6 @@
 package Dao;
 
-import Entity.Log;
+import Entit.Log;
 import Util.DBConnect;
 
 import java.sql.Connection;

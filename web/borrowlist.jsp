@@ -1,5 +1,5 @@
 <%@ page import="java.util.ArrayList" %>
-<%@ page import="Entity.Log" %><%--
+<%@ page import="Entit.Log" %><%--
   Created by IntelliJ IDEA.
   User: Kike
   Date: 2020/03/27

@@ -1,4 +1,4 @@
-<%@ page import="Entity.Book" %>
+<%@ page import="Entit.Book" %>
 <%@ page import="java.util.ArrayList" %><%--
   Created by IntelliJ IDEA.
   User: Kike

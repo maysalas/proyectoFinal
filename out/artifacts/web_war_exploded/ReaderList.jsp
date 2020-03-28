@@ -1,9 +1,9 @@
 <%@ page import="java.util.ArrayList" %>
-<%@ page import="Entity.Reader" %>
+<%@ page import="Entit.Reader" %>
 <%--
   Created by IntelliJ IDEA.
-  User: Creams
-  Date: 2018/1/23
+  User: Kike
+  Date: 2020/03/23
   Time: 21:10
   To change this template use File | Settings | File Templates.
 --%>
@@ -32,14 +32,14 @@
 <table class="table">
     <thead>
     <tr>
-        <th>读者ID</th>
-        <th>读者姓名</th>
-        <th>读者性别</th>
-        <th>读者当前状态</th>
-        <th>读者邮箱</th>
-        <th>读者电话</th>
-        <th>读者班级</th>
-        <th>操作</th>
+        <th>ID miembro</th>
+        <th>Nombre</th>
+        <th>Sexo</th>
+        <th>Status</th>
+        <th>Email</th>
+        <th>Telefono</th>
+        <th>Clase</th>
+        <th>Accion</th>
     </tr>
     </thead>
     <tbody>
@@ -57,8 +57,8 @@
         <td><%=reader.getName()%></td>
         <td><%=reader.getSex()%></td>
         <%
-            status = (reader.getStatus() == 1)?"正常":"黑名单";
-            edit = (reader.getStatus() == 1)?"设置成黑名单":"设置为正常";
+            status = (reader.getStatus() == 1)?"Normal":"ListaNegra";
+            edit = (reader.getStatus() == 1)?"poner ListaNegra":"poner Normal";
         %>
         <td><%=status%></td>
         <td><%=reader.getMail()%></td>

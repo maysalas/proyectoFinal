@@ -2,8 +2,8 @@ package Action;
 
 import Dao.IODao;
 import Dao.ReaderDao;
-import Entity.Log;
-import Entity.Reader;
+import Entit.Log;
+import Entit.Reader;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

@@ -1,10 +1,10 @@
 package app.datasim;
 
 
-import app.model.User;
+import app.model.TUser;
 
 public class DAO {
-    User usuario = new User();
+    TUser usuario = new TUser();
 
     //simular acceso a datos guardados en una BD
     public void setUsers() {

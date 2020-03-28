@@ -1,8 +1,8 @@
 <%@ page import="java.util.ArrayList" %>
-<%@ page import="Entity.Log" %><%--
+<%@ page import="Entit.Log" %><%--
   Created by IntelliJ IDEA.
-  User: Creams
-  Date: 2018/1/18
+  User: Kike
+  Date: 2020/03/27
   Time: 17:06
   To change this template use File | Settings | File Templates.
 --%>

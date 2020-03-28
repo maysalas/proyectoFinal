@@ -1,7 +1,7 @@
 package Action;
 
 import Dao.BookDao;
-import Entity.Book;
+import Entit.Book;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

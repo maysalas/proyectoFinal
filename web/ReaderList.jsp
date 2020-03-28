@@ -1,5 +1,5 @@
 <%@ page import="java.util.ArrayList" %>
-<%@ page import="Entity.Reader" %>
+<%@ page import="Entit.Reader" %>
 <%--
   Created by IntelliJ IDEA.
   User: Kike

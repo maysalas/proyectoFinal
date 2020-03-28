@@ -1,4 +1,4 @@
-package app.controller;
+package Action;
 
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;

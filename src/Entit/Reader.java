@@ -1,4 +1,4 @@
-package Entity;
+package Entit;
 
 public class Reader {
     private String username;

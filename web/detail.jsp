@@ -1,4 +1,4 @@
-<%@ page import="Entity.Book" %><%--
+<%@ page import="Entit.Book" %><%--
   Created by IntelliJ IDEA.
   User: Kike
   Date: 2020/03/27

@@ -1,7 +1,7 @@
 package app.controller;
 
 import app.datasim.DAO;
-import app.model.User;
+import app.model.TUser;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -13,7 +13,7 @@ import java.io.PrintWriter;
 
 @WebServlet(name = "Login")
 public class Login extends HttpServlet {
-    User usuario1 = new User();
+    TUser usuario1 = new TUser();
     DAO DataSource = new DAO();
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

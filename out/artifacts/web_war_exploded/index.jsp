@@ -7,7 +7,7 @@
 <script src="https://cdn.bootcss.com/popper.js/1.12.5/umd/popper.min.js"></script>
 <script src="${pageContext.request.contextPath}/js/bootstrap.min.js"></script>
 <html>
-<head>本
+<head>
     <title>Biblioteca</title>
 </head>
 <body>

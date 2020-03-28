@@ -1,6 +1,6 @@
 package Dao;
 
-import Entity.Book;
+import Entit.Book;
 import Util.DBConnect;
 
 import java.sql.Connection;

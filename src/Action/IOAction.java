@@ -1,7 +1,7 @@
 package Action;
 
 import Dao.IODao;
-import Entity.Log;
+import Entit.Log;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

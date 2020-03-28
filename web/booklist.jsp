@@ -1,6 +1,6 @@
 <%@ page import="Dao.BookDao" %>
 <%@ page import="java.util.ArrayList" %>
-<%@ page import="Entity.Book" %>
+<%@ page import="Entit.Book" %>
 <%--
   Created by IntelliJ IDEA.
   User: Kike

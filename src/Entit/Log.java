@@ -1,4 +1,4 @@
-package Entity;
+package Entit;
 
 public class Log {
     private String readerid;

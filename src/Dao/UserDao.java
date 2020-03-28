@@ -1,6 +1,7 @@
 package Dao;
 
-import Entity.User;
+
+import Entit.User;
 import Util.DBConnect;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
