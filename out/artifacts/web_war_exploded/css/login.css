@@ -1,0 +1,69 @@
+.welcome{
+	position:absolute;
+	background:url("../img/welcome.jpg") 1920px 950px;
+}
+
+.loginform{
+	position:absolute;
+	margin-top:10%;
+	margin-bottom:0px;
+	margin-right:0px;
+	margin-left:10%;
+	height:250px;
+	width:410px;
+	background-color: white;
+	 padding: 25px;
+  background-color: rgba(0,0,0,0.5);
+}
+
+
+
+.Cita{
+	position:absolute;
+	margin-top:480px;
+	margin-bottom:0px;
+	margin-right:0px;
+	margin-left:60px;
+	font-size:60px;
+	color:white;
+}
+
+.errorsubmit{
+	position:absolute;
+	margin-top:5px;
+	margin-bottom:0px;
+	margin-right:0px;
+	margin-left:90px;
+	width:400px;
+	color:red;
+}
+
+#loginbutton{
+	width:335px;
+}
+
+#rightsize{
+	align:right;
+	color:white;
+	
+}
+
+#usernameinput{
+	width:340px; 
+}
+
+#passwordinput{
+	width:340px; 
+}
+
+#labellogin{
+	position:absolute;
+	margin-left:95px;
+	margin-top:-10px;
+	text-align:center;
+	width:140px;
+	color:white;
+	font-size:20px;
+}
+
+
